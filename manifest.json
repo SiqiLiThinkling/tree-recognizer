@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Tree Recognizer",
+  "version": "1.0",
+  "description": "Find trees nearby on the map and provide Wikipedia links with language translations.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}

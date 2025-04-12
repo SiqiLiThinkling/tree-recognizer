@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tree Recognizer</title>
+    <!-- Include Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Language selection for Wikipedia links -->
+    <select id="languageSelect">
+      <option value="en" selected>English</option>
+      <option value="es">Spanish</option>
+      <option value="fr">French</option>
+      <!-- Add more languages as needed -->
+    </select>
+    
+    <!-- Div for the map -->
+    <div id="map" style="height: 300px;"></div>
+    
+    <!-- Div for showing tree results -->
+    <div id="results"></div>
+
+    <!-- Include Leaflet JS library -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <!-- Include the main popup script -->
+    <script src="popup.js"></script>
+  </body>
+</html>
